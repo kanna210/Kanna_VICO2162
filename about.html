@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fusion Noodle Company</title>
+    <style>
+   
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+  
+        header {
+            background-color: #7b2e20;
+            padding: 10px 0;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        header nav {
+            margin-top: 10px;
+        }
+
+        header nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 5px 10px;
+        }
+
+        header nav a:hover {
+            background-color: #d94d3f;
+            border-radius: 5px;
+        }
+
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+
+        #home {
+            background-color: #f4f4f4;
+        }
+
+  
+        #about {
+            background-color: #fff;
+        }
+
+        #about h2 {
+            font-size: 28px;
+            color: #7b2e20;
+            margin-bottom: 20px;
+        }
+
+        #about p {
+            font-size: 18px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+  
+        #location {
+            background-color: #f9f9f9;
+        }
+
+        #location h2 {
+            font-size: 28px;
+            color: #7b2e20;
+            margin-bottom: 20px;
+        }
+
+        #location p {
+            font-size: 18px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: #7b2e20;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+      
+        .order-button {
+            background-color: #d94d3f;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .order-button:hover {
+            background-color: #b34032;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Fusion Noodle Company</h1>
+        <p>The best noodles in town!</p>
+        <nav>
+            <a href="homepage.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="location.html">Location</a>
+            <a href="review.html">Review</a>
+
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Fusion Noodle Company</h2>
+        <p>Your one-stop destination for delicious Asian fusion cuisine. Try our signature dishes today!</p>
+        <button class="order-button" onclick="orderNow()">Order Online</button>
+
+        
+
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Welcome to Fusion Noodle Company. 
+            Our restaurant is loved by the local community for its diverse menu, high-quality ingredients, 
+            and, our commitment to making every dish delicious. 
+            From our famous Pad Thai to our signature Spicy Noodle Soup, we serve up the best of Asian fusion cuisine.
+        </p>
+        <p>
+            Fusion Noodle Company is more than just a restaurant – it's a place where friends and families get together, 
+            and noodle lovers find their taste here. We believe in crafting meals that not only satisfy hunger but also bring joy. 
+            Our passion for noodles and dedication to our customers is what keeps people coming back again 💪🍜
+        </p>
+        <p>
+            Come visit us and see why everyone is loving Fusion Noodle Company!
+        </p>
+    </section>
+
+    <section id="location">
+        <h2>Our Location</h2>
+        <p>We are located at 30 W Union St, Athens, OH. Come by for dine-in or take-out, or simply order online!</p>
+        <p>Open now! Closes at 10:30 PM</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fusion Noodle Company - All Rights Reserved</p>
+    </footer>
+
+    <script>
+        function orderNow() {
+            window.location.href = "orderOnline.html";
+        }
+    </script>
+    
+
+</body>
+</html>
